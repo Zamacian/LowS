@@ -1,6 +1,6 @@
 run:
 	qemu-system-x86_64 -drive format=raw,file="os/LowS.bin",index=0,if=floppy,  -m 128M
-compile:
+bin:
 	nasm "boot.asm" -f bin -o "build/boot/boot.bin"
 	nasm "kernel_entry.asm" -f elf -o "build/kernel/kernel_entry.o"
 	nasm "zeroes.asm" -f bin -o "build/zeroes.bin"
