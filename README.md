@@ -1,7 +1,6 @@
 # LowS
 ## Description
-My first operating system.
-
+My first operating system.    
 "LowS" because it makes a pun with "Low" and "S" making you pronounce "OS".
 ## Programming
 The kernel is in C and I made a function that prints a sentence.
